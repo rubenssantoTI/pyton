@@ -1,0 +1,364 @@
+object VehicleDetranFrame: TVehicleDetranFrame
+  Align = Client
+  Size.Width = 320.000000000000000000
+  Size.Height = 597.000000000000000000
+  Size.PlatformDefault = False
+  object Layout4: TLayout
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 597.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    object Rectangle5: TRectangle
+      Align = Client
+      Anchors = [akRight, akBottom]
+      Fill.Color = claBlack
+      Opacity = 0.699999988079071100
+      Size.Width = 320.000000000000000000
+      Size.Height = 597.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object AnimaMenu: TFloatAnimation
+      AnimationType = InOut
+      Duration = 0.500000000000000000
+      Interpolation = Circular
+      PropertyName = 'Position.Y'
+      StartValue = 500.000000000000000000
+      StopValue = 400.000000000000000000
+    end
+    object Rectangle2: TRectangle
+      Align = Center
+      Fill.Color = claWhite
+      Size.Width = 265.000000000000000000
+      Size.Height = 372.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 265.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Label1: TLabel
+          Align = Center
+          AutoSize = True
+          StyledSettings = [Style, FontColor]
+          Size.Width = 156.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 18.000000000000000000
+          Text = 'Consulta no Detran'
+          TabOrder = 0
+        end
+      end
+      object Layout2: TLayout
+        Align = Bottom
+        Position.Y = 322.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object SpeedButton1: TSpeedButton
+          Align = Center
+          StyleLookup = 'escapetoolbutton'
+          Text = 'SpeedButton1'
+          OnClick = SpeedButton1Click
+        end
+      end
+      object Layout3: TLayout
+        Align = Client
+        Size.Width = 265.000000000000000000
+        Size.Height = 280.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Line1: TLine
+          Align = Top
+          LineType = Top
+          Margins.Left = 8.000000000000000000
+          Margins.Right = 8.000000000000000000
+          Position.X = 8.000000000000000000
+          Size.Width = 249.000000000000000000
+          Size.Height = 9.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Line2: TLine
+          Align = Bottom
+          LineType = Bottom
+          Margins.Left = 8.000000000000000000
+          Margins.Right = 8.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 271.000000000000000000
+          Size.Width = 249.000000000000000000
+          Size.Height = 9.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label2: TLabel
+          Align = Top
+          Position.Y = 9.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.HorzAlign = Center
+          Text = 'Situa'#231#227'o'
+          TabOrder = 6
+        end
+        object lblSituacao: TLabel
+          Align = Top
+          StyledSettings = [Family, FontColor]
+          Margins.Top = 4.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = 'Sem restri'#231#245'es'
+          TabOrder = 1
+        end
+        object Label3: TLabel
+          Align = Top
+          Margins.Top = 16.000000000000000000
+          Position.Y = 63.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.HorzAlign = Center
+          Text = 'Marca'
+          TabOrder = 5
+        end
+        object lblMarca: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Position.Y = 80.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'FIAT/UNO VIVACE 1.0'
+          TabOrder = 3
+        end
+        object Label4: TLabel
+          Align = Top
+          Margins.Top = 10.000000000000000000
+          Position.Y = 107.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.HorzAlign = Center
+          Text = 'Modelo'
+          TabOrder = 4
+        end
+        object lblModelo: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Position.Y = 124.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Size = 10.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'FIAT/UNO VIVACE 1.0'
+          TabOrder = 2
+        end
+        object Layout6: TLayout
+          Align = Top
+          Margins.Top = 30.000000000000000000
+          Position.Y = 171.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          object Label6: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 35.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'Ano:'
+            TabOrder = 3
+          end
+          object lblAno: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 45.000000000000000000
+            Size.Width = 76.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = '2011'
+            TabOrder = 2
+          end
+          object lblAnoModelo: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 174.000000000000000000
+            Size.Width = 63.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = '2011'
+            TabOrder = 0
+          end
+          object Label8: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 121.000000000000000000
+            Size.Width = 53.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'Modelo:'
+            TabOrder = 1
+          end
+        end
+        object Layout7: TLayout
+          Align = Top
+          Position.Y = 191.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          object Label9: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 60.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'Munic'#237'pio:'
+            TabOrder = 1
+          end
+          object lblMunicipio: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 70.000000000000000000
+            Size.Width = 197.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'SALVADOR'
+            TabOrder = 0
+          end
+        end
+        object Layout8: TLayout
+          Align = Top
+          Position.Y = 211.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          object Label11: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 21.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'UF:'
+            TabOrder = 1
+          end
+          object lblUF: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 31.000000000000000000
+            Size.Width = 195.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'BA'
+            TabOrder = 0
+          end
+        end
+        object Layout5: TLayout
+          Align = Top
+          Position.Y = 231.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          object Label5: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 48.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'Chassi:'
+            TabOrder = 3
+          end
+          object lblChassi: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 58.000000000000000000
+            Size.Width = 76.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = '2011'
+            TabOrder = 2
+          end
+          object lblCor: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 168.000000000000000000
+            Size.Width = 63.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'Amarela'
+            TabOrder = 0
+          end
+          object Label12: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 134.000000000000000000
+            Size.Width = 34.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'labelstyle'
+            TextSettings.Font.Size = 10.000000000000000000
+            Text = 'Cor:'
+            TabOrder = 1
+          end
+        end
+      end
+    end
+  end
+end

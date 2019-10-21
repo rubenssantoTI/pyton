@@ -1,0 +1,91 @@
+object PhotoEffectsFrame: TPhotoEffectsFrame
+  Align = Client
+  Size.Width = 284.000000000000000000
+  Size.Height = 420.000000000000000000
+  Size.PlatformDefault = False
+  OnResize = FrameResize
+  object lvEffects: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Center
+    Margins.Left = 30.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 30.000000000000000000
+    Margins.Bottom = 20.000000000000000000
+    Size.Width = 224.000000000000000000
+    Size.Height = 380.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ItemAppearanceObjects.ItemObjects.Accessory.Visible = False
+    OnItemClick = lvEffectsItemClick
+  end
+  object EmbossEffect1: TEmbossEffect
+    Enabled = False
+    Amount = 0.500000000000000000
+    Width = 3.000000000000000000
+  end
+  object RadialBlurEffect1: TRadialBlurEffect
+    Enabled = False
+    BlurAmount = 1.000000000000000000
+  end
+  object ContrastEffect1: TContrastEffect
+    Enabled = False
+    Brightness = 0.000000000000000000
+    Contrast = 1.500000000000000000
+  end
+  object ColorKeyAlphaEffect1: TColorKeyAlphaEffect
+    Enabled = False
+    ColorKey = claNull
+    Tolerance = 0.300000011920929000
+  end
+  object InvertEffect1: TInvertEffect
+    Enabled = False
+  end
+  object SepiaEffect1: TSepiaEffect
+    Enabled = False
+    Amount = 0.500000000000000000
+  end
+  object TilerEffect1: TTilerEffect
+    Enabled = False
+    VerticalTileCount = 4.000000000000000000
+    HorizontalTileCount = 3.000000000000000000
+    HorizontalOffset = 0.000000000000000000
+    VerticalOffset = 0.000000000000000000
+  end
+  object PixelateEffect1: TPixelateEffect
+    Enabled = False
+    BlockCount = 25.000000000000000000
+  end
+  object ToonEffect1: TToonEffect
+    Enabled = False
+    Levels = 5.000000000000000000
+  end
+  object PencilStrokeEffect1: TPencilStrokeEffect
+    Enabled = False
+    brushSize = 5.000000000000000000
+  end
+  object RippleEffect1: TRippleEffect
+    Enabled = False
+    Amplitude = 0.100000001490116100
+    Frequency = 70.000000000000000000
+    Phase = 0.000000000000000000
+    AspectRatio = 1.500000000000000000
+  end
+  object WaveEffect1: TWaveEffect
+    Enabled = False
+    Time = 0.000000000000000000
+    WaveSize = 64.000000000000000000
+  end
+  object InnerGlowEffect1: TInnerGlowEffect
+    Softness = 0.400000005960464500
+    GlowColor = claGold
+    Opacity = 0.899999976158142100
+    Enabled = False
+  end
+  object ActionList1: TActionList
+    Left = 144
+    Top = 152
+  end
+end

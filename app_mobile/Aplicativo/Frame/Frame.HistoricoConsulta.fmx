@@ -1,0 +1,298 @@
+object QueryHistoryFrame: TQueryHistoryFrame
+  Align = Client
+  Size.Width = 347.000000000000000000
+  Size.Height = 498.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Margins.Left = 26.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 26.000000000000000000
+    Margins.Bottom = 46.000000000000000000
+    Size.Width = 295.000000000000000000
+    Size.Height = 402.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    Stroke.Thickness = 3.000000000000000000
+    XRadius = 12.000000000000000000
+    YRadius = 12.000000000000000000
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Size.Width = 295.000000000000000000
+      Size.Height = 402.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 295.000000000000000000
+      Viewport.Height = 402.000000000000000000
+      object Layout1: TLayout
+        Anchors = [akLeft, akTop, akRight]
+        Position.X = 8.000000000000000000
+        Position.Y = 58.000000000000000000
+        Size.Width = 514.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Image1: TImage
+          MultiResBitmap = <
+            item
+            end>
+        end
+        object lbPlaca: TLabel
+          StyledSettings = [FontColor]
+          Position.X = 57.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'OQP-1294'
+          TabOrder = 2
+        end
+        object lbSituacao: TLabel
+          StyledSettings = [Style, FontColor]
+          Position.X = 58.000000000000000000
+          Position.Y = 29.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Situa'#231#227'o regular'
+          TabOrder = 1
+        end
+      end
+      object Layout2: TLayout
+        Anchors = [akLeft, akTop, akRight]
+        Position.X = 8.000000000000000000
+        Position.Y = 115.000000000000000000
+        Size.Width = 514.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Image2: TImage
+          MultiResBitmap = <
+            item
+            end>
+        end
+        object Label1: TLabel
+          StyledSettings = [FontColor]
+          Position.X = 57.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'OQP-1294'
+          TabOrder = 2
+        end
+        object Label2: TLabel
+          StyledSettings = [Style, FontColor]
+          Position.X = 58.000000000000000000
+          Position.Y = 29.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Situa'#231#227'o regular'
+          TabOrder = 1
+        end
+      end
+      object Layout3: TLayout
+        Anchors = [akLeft, akTop, akRight]
+        Position.X = 8.000000000000000000
+        Position.Y = 172.000000000000000000
+        Size.Width = 514.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object Image3: TImage
+          MultiResBitmap = <
+            item
+            end>
+        end
+        object Label3: TLabel
+          StyledSettings = [FontColor]
+          Position.X = 57.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'OQP-1294'
+          TabOrder = 2
+        end
+        object Label4: TLabel
+          StyledSettings = [Style, FontColor]
+          Position.X = 58.000000000000000000
+          Position.Y = 29.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Situa'#231#227'o regular'
+          TabOrder = 1
+        end
+      end
+      object Layout4: TLayout
+        Anchors = [akLeft, akTop, akRight]
+        Position.X = 8.000000000000000000
+        Position.Y = 229.000000000000000000
+        Size.Width = 514.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        object Image4: TImage
+          MultiResBitmap = <
+            item
+            end>
+        end
+        object Label5: TLabel
+          StyledSettings = [FontColor]
+          Position.X = 57.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'OQP-1294'
+          TabOrder = 2
+        end
+        object Label6: TLabel
+          StyledSettings = [Style, FontColor]
+          Position.X = 58.000000000000000000
+          Position.Y = 29.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Situa'#231#227'o regular'
+          TabOrder = 1
+        end
+      end
+      object Layout5: TLayout
+        Anchors = [akLeft, akTop, akRight]
+        Position.X = 8.000000000000000000
+        Position.Y = 285.000000000000000000
+        Size.Width = 514.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object Image5: TImage
+          MultiResBitmap = <
+            item
+            end>
+        end
+        object Label7: TLabel
+          StyledSettings = [FontColor]
+          Position.X = 57.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'OQP-1294'
+          TabOrder = 2
+        end
+        object Label8: TLabel
+          StyledSettings = [Style, FontColor]
+          Position.X = 58.000000000000000000
+          Position.Y = 29.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Situa'#231#227'o regular'
+          TabOrder = 1
+        end
+      end
+      object Layout6: TLayout
+        Anchors = [akLeft, akTop, akRight]
+        Position.X = 8.000000000000000000
+        Position.Y = 341.000000000000000000
+        Size.Width = 514.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object Image6: TImage
+          MultiResBitmap = <
+            item
+            end>
+        end
+        object Label9: TLabel
+          StyledSettings = [FontColor]
+          Position.X = 57.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'OQP-1294'
+          TabOrder = 2
+        end
+        object Label10: TLabel
+          StyledSettings = [Style, FontColor]
+          Position.X = 58.000000000000000000
+          Position.Y = 29.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'labelstyle'
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Situa'#231#227'o regular'
+          TabOrder = 1
+        end
+      end
+      object Label11: TLabel
+        Align = Top
+        StyledSettings = [FontColor]
+        Margins.Top = 20.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 295.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 24.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'Hist'#243'rico de consultas'
+        TabOrder = 2
+      end
+      object Line1: TLine
+        Align = Top
+        LineType = Bottom
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 45.000000000000000000
+        Size.Width = 279.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Cap = Round
+      end
+    end
+  end
+end
