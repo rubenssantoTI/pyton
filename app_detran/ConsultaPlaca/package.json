@@ -7,7 +7,7 @@
     "name": ""
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "sinesp-api": "^1.5.3",
     "utf-8": "^2.0.0",
     "utf8": "^3.0.0"
